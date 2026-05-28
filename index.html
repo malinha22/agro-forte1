@@ -4,154 +4,111 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
     <title>Alelopatia | Agronomia Sustentável</title>
 
     <!-- FONTE -->
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
 
     <link rel="stylesheet" href="style/style.css">
 </head>
 
 <body>
 
-<!-- HEADER -->
-<header class="header">
-
-    <h1>Alelopatia</h1>
-    <p class="subtitulo">Interações químicas entre plantas na agronomia</p>
+<!-- MENU FIXO -->
+<header class="header" id="header">
+    <div class="logo-area">
+        <h1>Alelopatia</h1>
+        <p>Agronomia & Sustentabilidade</p>
+    </div>
 
     <!-- ACESSIBILIDADE -->
     <div class="menu-acessibilidade">
-
-        <button id="botao-acessibilidade"
-            class="btn-acessibilidade"
-            aria-expanded="false">
-
-            Acessibilidade
-
-        </button>
-
-        <div id="opcoes-acessibilidade"
-            class="opcoes-acessibilidade">
-
+        <button id="botao-acessibilidade" class="btn-acessibilidade" aria-expanded="false">Acessibilidade</button>
+        <div id="opcoes-acessibilidade" class="opcoes-acessibilidade">
             <button id="aumentar-fonte">A+</button>
             <button id="diminuir-fonte">A-</button>
             <button id="alterna-contraste">Contraste</button>
-
         </div>
-
     </div>
-
 </header>
 
 <!-- HERO -->
 <section class="hero">
-
     <div class="hero-box">
-
         <h2>O estudo da alelopatia na agricultura</h2>
-
-        <p>
-            Fenômeno natural onde plantas liberam substâncias químicas que influenciam outras espécies.
-        </p>
-
+        <p>Fenômeno natural onde plantas liberam substâncias químicas que influenciam outras espécies.</p>
+        <a href="#sobre" class="btn-hero">Explorar</a>
     </div>
-
 </section>
 
 <!-- SOBRE -->
-<section class="section">
-
+<section id="sobre" class="section">
     <h2>O que é Alelopatia?</h2>
-
-    <p>
-        É a interação química entre plantas através de substâncias liberadas no solo ou no ar,
-        podendo estimular ou inibir o crescimento de outras plantas.
-    </p>
-
+    <p>Interação química entre plantas através de substâncias liberadas no solo ou no ar, podendo estimular ou inibir
+        o crescimento de outras plantas.</p>
     <img src="img/alelopatia.jpg" alt="Alelopatia no solo agrícola" class="imagem">
-
 </section>
 
 <!-- BENEFÍCIOS -->
 <section class="cards">
-
     <h2>Importância na Agronomia</h2>
-
     <div class="card-container">
-
         <div class="card">
             <h3>🌱 Controle Natural</h3>
             <p>Reduz ervas daninhas sem agrotóxicos.</p>
         </div>
-
         <div class="card">
             <h3>🌿 Solo Saudável</h3>
             <p>Melhora o equilíbrio biológico do solo.</p>
         </div>
-
         <div class="card">
             <h3>🚜 Sustentabilidade</h3>
             <p>Agricultura mais ecológica e eficiente.</p>
         </div>
-
     </div>
-
 </section>
 
 <!-- EXEMPLOS -->
 <section class="section green">
-
-    <h2>Exemplos de Plantas</h2>
-
+    <h2>Exemplos de Plantas Alelopáticas</h2>
     <ul>
         <li>Eucalipto</li>
         <li>Nogueira</li>
         <li>Girassol</li>
         <li>Capim-santo</li>
     </ul>
-
 </section>
 
 <!-- GALERIA -->
 <section class="galeria">
-
     <h2>Imagens do Campo</h2>
-
     <div class="galeria-container">
-
         <img src="img/campo1.jpg" alt="Campo agrícola">
         <img src="img/campo2.jpg" alt="Plantação sustentável">
         <img src="img/campo3.jpg" alt="Solo fértil">
-
     </div>
-
 </section>
 
 <!-- EQUIPE -->
 <section class="team">
-
     <h2>Equipe</h2>
-
     <div class="team-card">
-
         <h3>Marcelo</h3>
         <p>Desenvolvimento do projeto</p>
-
     </div>
-
 </section>
+
+<!-- BOTÃO VOLTAR AO TOPO -->
+<button id="topBtn" title="Voltar ao topo">⬆️</button>
 
 <!-- RODAPÉ -->
 <footer class="footer">
-
     <p>© 2026 - Alelopatia | Agronomia Sustentável</p>
-
 </footer>
 
 <script src="main.js"></script>
-
+<script src="scroll.js"></script>
 </body>
 
 </html>

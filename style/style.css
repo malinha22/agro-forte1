@@ -1,3 +1,4 @@
+/* GERAL */
 body {
     margin: 0;
     font-family: 'Poppins', sans-serif;
@@ -7,27 +8,34 @@ body {
     text-align: center;
 }
 
-/* HEADER */
+/* HEADER FIXO */
 .header {
     background: #1b4332;
     color: white;
-    padding: 30px 20px;
+    padding: 20px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
-.subtitulo {
+.logo-area p {
     opacity: 0.8;
+    margin: 0;
 }
 
 /* ACESSIBILIDADE */
 .menu-acessibilidade {
-    margin-top: 15px;
     position: relative;
 }
 
 .btn-acessibilidade {
     background: #2d6a4f;
     border: none;
-    padding: 10px 15px;
+    padding: 8px 12px;
     color: white;
     cursor: pointer;
     border-radius: 6px;
@@ -36,12 +44,13 @@ body {
 .opcoes-acessibilidade {
     display: none;
     position: absolute;
+    top: 35px;
     left: 50%;
     transform: translateX(-50%);
     background: white;
     padding: 10px;
     border-radius: 8px;
-    gap: 8px;
+    gap: 5px;
 }
 
 .apresenta-lista {
@@ -52,18 +61,24 @@ body {
 .hero {
     background: linear-gradient(120deg, #2d6a4f, #95d5b2);
     color: white;
-    padding: 80px 20px;
+    padding: 150px 20px 80px 20px;
 }
 
-.hero-box {
-    max-width: 700px;
-    margin: auto;
+.btn-hero {
+    display: inline-block;
+    margin-top: 20px;
+    background: white;
+    color: #1b4332;
+    padding: 10px 25px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
 }
 
 /* SEÇÕES */
 .section {
-    padding: 50px 20px;
-    max-width: 800px;
+    padding: 80px 20px 50px 20px;
+    max-width: 900px;
     margin: auto;
 }
 
@@ -76,7 +91,7 @@ body {
 
 /* CARDS */
 .cards {
-    padding: 50px 20px;
+    padding: 80px 20px;
 }
 
 .card-container {
@@ -101,7 +116,7 @@ body {
 
 /* GALERIA */
 .galeria {
-    padding: 50px 20px;
+    padding: 80px 20px;
 }
 
 .galeria-container {
@@ -113,30 +128,63 @@ body {
 
 .galeria-container img {
     width: 250px;
-    border-radius: 10px;
+    border-radius: 12px;
 }
 
 /* EQUIPE */
 .team {
-    padding: 50px 20px;
+    padding: 80px 20px;
 }
 
 .team-card {
     background: white;
     display: inline-block;
     padding: 20px;
-    border-radius: 10px;
+    border-radius: 12px;
 }
 
 /* RODAPÉ */
 .footer {
     background: #1b4332;
     color: white;
-    padding: 15px;
+    padding: 20px;
+}
+
+/* BOTÃO TOPO */
+#topBtn {
+    display: none;
+    position: fixed;
+    bottom: 40px;
+    right: 30px;
+    z-index: 100;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color: #2d6a4f;
+    color: white;
+    cursor: pointer;
+    padding: 10px 15px;
+    border-radius: 50%;
+}
+
+#topBtn:hover {
+    background-color: #1b4332;
 }
 
 /* CONTRASTE */
 .alto-contraste {
     background: black !important;
     color: yellow !important;
+}
+
+/* RESPONSIVO */
+@media(max-width: 768px){
+    .card-container, .galeria-container {
+        flex-direction: column;
+        align-items: center;
+    }
+    .header {
+        flex-direction: column;
+        gap: 10px;
+    }
 }
