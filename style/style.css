@@ -1,44 +1,93 @@
-/* MENU DE ACESSIBILIDADE */
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background: #f4f7f4;
+    transition: 0.3s;
+}
+
+/* CABEÇALHO */
+.cabecalho {
+    background: #1f4d2e;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.logo p {
+    margin: 0;
+    font-size: 14px;
+}
+
+/* ACESSIBILIDADE */
+.menu-acessibilidade {
+    position: relative;
+}
 
 .opcoes-acessibilidade {
     display: none;
     flex-direction: column;
-    gap: 10px;
-    margin-top: 10px;
+    position: absolute;
+    right: 0;
+    background: white;
+    padding: 10px;
+    border-radius: 8px;
 }
 
 .apresenta-lista {
     display: flex;
+    gap: 5px;
 }
 
-/* ROTAÇÃO DO BOTÃO */
-
-.rotacao-botao {
-    transform: rotate(5deg);
-    transition: 0.3s;
-}
-
-/* ALTO CONTRASTE */
-
-.alto-contraste {
-    background-color: black;
+.botao-acessibilidade {
+    background: #2d6a4f;
     color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
 }
 
-.alto-contraste header,
-.alto-contraste footer,
-.alto-contraste section,
-.alto-contraste .card-agro {
-    background-color: black !important;
-    color: white !important;
+/* HERO */
+.hero {
+    background: linear-gradient(to right, #2d6a4f, #95d5b2);
+    color: white;
+    padding: 60px;
+    text-align: center;
 }
 
-.alto-contraste a {
+/* CARD */
+.card {
+    background: white;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+/* EQUIPE */
+.equipe {
+    text-align: center;
+    padding: 20px;
+}
+
+.card-equipe {
+    background: white;
+    display: inline-block;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+/* RODAPÉ */
+.rodape {
+    background: #1f4d2e;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+/* CONTRASTE */
+.alto-contraste {
+    background: black !important;
     color: yellow !important;
-}
-
-/* TRANSIÇÃO SUAVE */
-
-body {
-    transition: 0.3s;
 }

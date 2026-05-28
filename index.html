@@ -5,7 +5,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Alelopatia</title>
+    <title>Alelopatia | Projeto Educacional</title>
+
+    <!-- FONTE -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="style/style.css">
 </head>
@@ -15,15 +18,16 @@
 <!-- CABEÇALHO -->
 <header class="cabecalho">
 
-    <img class="cabecalho-imagem" src="img/logo.png" alt="Logo Alelopatia">
+    <div class="logo">
+        <h1>Alelopatia</h1>
+        <p>Interações químicas entre plantas</p>
+    </div>
 
-    <h1>Alelopatia</h1>
-
-    <!-- ACESSIBILIDADE (NÃO PODE MUDAR OS IDs) -->
+    <!-- ACESSIBILIDADE (NÃO ALTERAR IDS) -->
     <div class="menu-acessibilidade">
 
         <button id="botao-acessibilidade"
-            class="btn"
+            class="botao-acessibilidade"
             aria-expanded="false">
 
             Acessibilidade
@@ -46,59 +50,72 @@
 <!-- HERO -->
 <section class="hero">
 
-    <h2>Alelopatia</h2>
+    <div class="hero-conteudo">
 
-    <p>
-        Interação química entre plantas que influencia seu crescimento.
-    </p>
+        <h2>O que é Alelopatia?</h2>
+
+        <p>
+            Alelopatia é quando plantas liberam substâncias químicas que influenciam o crescimento de outras plantas.
+        </p>
+
+    </div>
 
 </section>
 
 <!-- SOBRE -->
-<section id="sobre" class="agro">
+<section class="card">
 
-    <h2>O que é Alelopatia?</h2>
-
-    <p>
-        É quando plantas liberam substâncias químicas que afetam outras plantas ao redor.
-    </p>
-
-</section>
-
-<!-- IMPORTÂNCIA -->
-<section class="agro">
-
-    <h2>Importância</h2>
+    <h2>Sobre o tema</h2>
 
     <p>
-        Ajuda no controle natural de plantas invasoras e na agricultura sustentável.
+        A alelopatia é um fenômeno natural importante na agricultura, ajudando no controle de plantas invasoras e no equilíbrio ambiental.
     </p>
 
 </section>
 
 <!-- EXEMPLOS -->
-<section class="agro">
+<section class="card">
 
     <h2>Exemplos</h2>
 
+    <ul>
+        <li>Eucalipto</li>
+        <li>Nogueira</li>
+        <li>Girassol</li>
+    </ul>
+
+</section>
+
+<!-- BENEFÍCIOS -->
+<section class="card">
+
+    <h2>Importância</h2>
+
     <p>
-        Eucalipto e nogueira são exemplos clássicos de alelopatia.
+        Ajuda na agricultura sustentável, reduz uso de agrotóxicos e melhora o equilíbrio do solo.
     </p>
 
 </section>
 
 <!-- EQUIPE -->
-<section class="estudante">
+<section class="equipe">
 
     <h2>Equipe</h2>
 
-    <p>Marcelo</p>
+    <div class="card-equipe">
+
+        <h3>Marcelo</h3>
+        <p>Desenvolvedor do projeto</p>
+
+    </div>
 
 </section>
 
 <!-- RODAPÉ -->
 <footer class="rodape">
-    <p>Projeto Alelopatia</p>
+
+    <p>© 2026 - Projeto Alelopatia</p>
+
 </footer>
 
 <script src="main.js"></script>
