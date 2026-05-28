@@ -161,7 +161,7 @@ body {
     border: none;
     outline: none;
     background-color: #2d6a4f;
-    color: white;
+    color: rgb(0, 0, 0);
     cursor: pointer;
     padding: 10px 15px;
     border-radius: 50%;
@@ -174,7 +174,7 @@ body {
 /* CONTRASTE */
 .alto-contraste {
     background: black !important;
-    color: yellow !important;
+    color: rgb(255, 255, 255) !important;
 }
 
 /* RESPONSIVO */
