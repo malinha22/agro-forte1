@@ -102,7 +102,7 @@ body {
 }
 
 .card {
-    background: white;
+    background: rgb(105, 153, 42);
     padding: 20px;
     width: 250px;
     border-radius: 12px;
@@ -111,7 +111,7 @@ body {
 
 /* VERDE */
 .green {
-    background: #d8f3dc;
+    background: #649e6d;
 }
 
 /* GALERIA */
@@ -137,7 +137,7 @@ body {
 }
 
 .team-card {
-    background: rgb(214, 43, 43);
+    background: rgb(31, 151, 81);
     display: inline-block;
     padding: 20px;
     border-radius: 12px;
