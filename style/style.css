@@ -1,23 +1,29 @@
 body {
     margin: 0;
     font-family: 'Poppins', sans-serif;
-    background: #f4f7f4;
+    background: #f3f6f3;
+    color: #1b1b1b;
     transition: 0.3s;
 }
 
-/* CABEÇALHO */
-.cabecalho {
-    background: #1f4d2e;
-    color: white;
+/* HEADER */
+.header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    background: #1b4332;
+    color: white;
     padding: 20px;
 }
 
-.logo p {
+.logo-area h1 {
+    margin: 0;
+}
+
+.logo-area p {
     margin: 0;
     font-size: 14px;
+    opacity: 0.8;
 }
 
 /* ACESSIBILIDADE */
@@ -25,9 +31,16 @@ body {
     position: relative;
 }
 
+.btn-acessibilidade {
+    background: #2d6a4f;
+    border: none;
+    padding: 10px;
+    color: white;
+    cursor: pointer;
+}
+
 .opcoes-acessibilidade {
     display: none;
-    flex-direction: column;
     position: absolute;
     right: 0;
     background: white;
@@ -40,38 +53,70 @@ body {
     gap: 5px;
 }
 
-.botao-acessibilidade {
-    background: #2d6a4f;
-    color: white;
-    border: none;
-    padding: 10px;
-    cursor: pointer;
-}
-
 /* HERO */
 .hero {
-    background: linear-gradient(to right, #2d6a4f, #95d5b2);
+    background: linear-gradient(120deg, #2d6a4f, #95d5b2);
     color: white;
-    padding: 60px;
+    padding: 80px 20px;
     text-align: center;
 }
 
-/* CARD */
+.btn-hero {
+    display: inline-block;
+    margin-top: 15px;
+    background: white;
+    color: #1b4332;
+    padding: 10px 20px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* SEÇÕES */
+.section {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.dark {
+    background: #d8f3dc;
+}
+
+/* CARDS */
+.cards {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.card-container {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
 .card {
     background: white;
-    margin: 20px;
     padding: 20px;
-    border-radius: 12px;
+    width: 250px;
+    border-radius: 10px;
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
 }
 
-/* EQUIPE */
-.equipe {
-    text-align: center;
-    padding: 20px;
+/* IMAGEM */
+.image-section img {
+    width: 100%;
+    max-height: 400px;
+    object-fit: cover;
 }
 
-.card-equipe {
+/* EQUIPE */
+.team {
+    text-align: center;
+    padding: 40px;
+}
+
+.team-card {
     background: white;
     display: inline-block;
     padding: 20px;
@@ -79,8 +124,8 @@ body {
 }
 
 /* RODAPÉ */
-.rodape {
-    background: #1f4d2e;
+.footer {
+    background: #1b4332;
     color: white;
     text-align: center;
     padding: 15px;
