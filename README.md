@@ -42,6 +42,7 @@ JavaScript
 │   ├── solo agrícola.png
 │   ├── solo fértil.png
     header.css (nem todos têm)
+    
 ▶️ Como Executar o Projeto
 Para visualizar o projeto:
 É possível acessar o projeto publicado pelo GitHub Pages, por meio do link disponível na seção About deste repositório.
@@ -69,10 +70,10 @@ Responsividade com media queries;Manipulação do DOM com JavaScript;
 Menu de acessibilidade com controle de fonte e contraste;
 
 🖼️ Galeria de Imagens
-campo agrícola.png (crie uma imagem com o tema "campo agrícola")
-plantação sustentável.png (crie uma imagem com o tema "plantação sustentável)
-solo agrícola.png (crie uma imagem com o tema "solo agrícola")
-solo fértil.png (crie uma imagem com o tema "solo fétil")
+campo agrícola.png 
+plantação sustentável.png 
+solo agrícola.png 
+solo fértil.png
 
 👨‍🎓 Autoria
 Autor(a): Amália Schleder Bruga
@@ -86,10 +87,15 @@ As imagens, vídeos, ícones, textos e demais recursos visuais utilizados neste 
 Caso algum recurso tenha sido produzido com apoio de inteligência artificial, os prompts utilizados estão registrados abaixo.
 
 🤖 Prompts Genéricos de IA Utilizados
-🌾 Imagem Campo de cevada 
-Crie uma imagem realista e educativa de um campo de cevada em Guarapuava, no Paraná, com atmosfera acolhedora, luz natural suave, paisagem agrícola bem cuidada, céu limpo e sensação de conexão entre produção rural, sustentabilidade e futuro. A imagem deve transmitir equilíbrio entre o agro forte e o cuidado com o meio ambiente.
-🌱 Imagem Campo — Cultivo da cevada
-Crie uma imagem de uma lavoura de cevada em fase de crescimento, mostrando o cultivo no campo, o cuidado com o solo e a importância da agricultura sustentável. A cena deve ter cores naturais, aparência limpa, clima positivo e representar o início da cadeia produtiva do malte.
+ Imagem - Campo Agrícola
+Crie uma imagem com o tema "Campo Agrícola"
+ Imagem — Plantação Sustentável
+Crie uma imagem com o tema "Plantação Sustentável"
+ Imagem - Solo Agrícola
+Crie uma imagem com o tema "Solo Agrícola"
+ Imagem - Solo Fértil
+Crie uma imagem com o tema "Solo Fértil"
+
 📚 Observação sobre o Uso de IA
 As ferramentas de inteligência artificial podem ter sido utilizadas como apoio na criação de imagens, textos ou ideias visuais do projeto.
 Todos os recursos foram utilizados com finalidade educacional, respeitando o tema do concurso e com o objetivo de tornar o aprendizado mais visual, acessível e interativo.
