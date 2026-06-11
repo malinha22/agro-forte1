@@ -37,14 +37,10 @@ JavaScript
 ├── README.md
 ├── scroll.js
 ├── img/
-│   ├── logo.png
-│   ├── Hero.png
-│   ├── Campo.png
-│   ├── Malte.png
-│   ├── Cidade.png
-│   ├── Clipe.mp4
-│   ├── github.png
-│   └── instagram.png
+│   ├── campo agrícola.png
+│   ├── plantação sustentável.png
+│   ├── solo agrícola.png
+│   ├── solo fértil.png
     header.css (nem todos têm)
 ▶️ Como Executar o Projeto
 Para visualizar o projeto:
@@ -56,7 +52,6 @@ O projeto inclui recursos de acessibilidade para melhorar a experiência dos usu
 🔠 Botão para aumentar o tamanho da fonte;
 🔡 Botão para diminuir o tamanho da fonte;
 🌓 Modo de alto contraste;
-🖼️ Textos alternativos em imagens;
 
 
 🌿 Sustentabilidade
@@ -74,13 +69,16 @@ Responsividade com media queries;Manipulação do DOM com JavaScript;
 Menu de acessibilidade com controle de fonte e contraste;
 
 🖼️ Galeria de Imagens
-casa.jpg  Retirado do site wikimedia Commons ()
-campo.jpg (se for da IA inserir aqui o prompt)
+campo agrícola.png (crie uma imagem com o tema "campo agrícola")
+plantação sustentável.png (crie uma imagem com o tema "plantação sustentável)
+solo agrícola.png (crie uma imagem com o tema "solo agrícola")
+solo fértil.png (crie uma imagem com o tema "solo fétil")
+
 👨‍🎓 Autoria
-Autor(a): Nome do(a) estudante
-Professor(a) orientador(a): Nome do(a) professor(a)
-Escola: Nome da instituição de ensino
-Município: Guarapuava – Paraná
+Autor(a): Amália Schleder Bruga
+Professor(a) orientador(a): Alexandra Terezinha Kapusinski
+Escola: Colégio Estadual Cívico Militar Edite Cordeiro Marques E.F.M
+Município: Turvo – Paraná
 
 🖼️ Créditos dos Recursos Utilizados
 As imagens, vídeos, ícones, textos e demais recursos visuais utilizados neste projeto foram produzidos ou organizados para fins educacionais no contexto do Concurso Agrinho 2026.
