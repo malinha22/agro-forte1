@@ -110,4 +110,4 @@ agrinho2026
 Projeto desenvolvido exclusivamente para fins educacionais e para participação no Concurso Agrinho 2026.
 
 🌟 Considerações Finais
-O que se pode considerar a partir do projeto apresentado
+A alelopatia é uma interação natural entre plantas que pode beneficiar a agricultura sustentável. Ela auxilia no controle de ervas daninhas, melhora o equilíbrio do solo e reduz o uso de produtos químicos. Assim, seu uso contribui para uma produção agrícola mais eficiente e para a preservação do meio ambiente.
